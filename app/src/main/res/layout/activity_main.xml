@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.blingbling.flowlayout.MainActivity">
+
+    <com.blingbling.flowlayout.FlowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈e]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:padding="8dp"
+            android:text="[哈哈哈]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈2]"/>
+
+
+    </com.blingbling.flowlayout.FlowLayout>
+
+    <com.blingbling.flowlayout.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        app:flow_horizontalSpacing="24dp"
+        app:flow_verticalSpacing="24dp">
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:padding="8dp"
+            android:text="[哈哈哈]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈2]"/>
+
+
+    </com.blingbling.flowlayout.FlowLayout>
+
+    <com.blingbling.flowlayout.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:flow_equally="false"
+        app:flow_horizontalSpacing="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            style="@style/FlowView"
+            android:text="[哈哈哈]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈sdfsdfsdfs]"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            style="@style/FlowView"
+            android:text="[哈哈哈2]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[ffewfdsfdsfafdafewfsdjfkajsdlfjlaksjdlfjalkjsdallaldjflajdflalsdj]"/>
+
+        <TextView
+            style="@style/FlowView"
+            android:text="[哈哈哈2]"/>
+    </com.blingbling.flowlayout.FlowLayout>
+</LinearLayout>
